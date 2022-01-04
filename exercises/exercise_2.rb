@@ -9,6 +9,6 @@ puts "----------"
 @store2 = Store.find_by(id: 2)
 puts Store.first.name
 
-@store1.name = "Surrey"
+@store1.name = "Toronto"
 @store1.save
 puts Store.first.name
